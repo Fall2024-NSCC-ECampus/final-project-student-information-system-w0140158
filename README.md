@@ -31,3 +31,28 @@ A C++ based Student Information System that allows users to manage a list of stu
    ```bash
    git clone https://github.com/Fall2024-NSCC-ECampus/final-project-student-information-system-w0140158.git
    cd final-project-student-information-system-w0140158
+
+## Endpoints
+# Get People by Fire Station
+GET /firestation?stationNumber={station_number}
+
+# Child Alert by Address
+GET /childAlert?address={address}
+
+# Phone Alert by Fire Station
+GET /phoneAlert?firestation={firestation_number}
+
+# Fire Details by Address
+GET /fire?address={address}
+
+# Flood Alerts for Multiple Stations
+GET /flood/stations?stations={station_numbers}
+
+# Person Information Lookup
+GET /personInfo?firstName={firstName}&lastName={lastName}
+
+# Community Emails by City
+GET /communityEmail?city={city}
+
+
+   
